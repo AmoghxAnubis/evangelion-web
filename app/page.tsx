@@ -6,10 +6,10 @@ const SocialsButton = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const socials = [
-    { name: "Twitter", url: "https://twitter.com/yourhandle", icon: "𝕏", color: "#000000" },
-    { name: "LinkedIn", url: "https://linkedin.com/in/yourprofile", icon: "in", color: "#0077B5" },
-    { name: "Instagram", url: "https://instagram.com/yourhandle", icon: "📷", color: "#E4405F" },
-    { name: "GitHub", url: "https://github.com/yourusername", icon: "⚡", color: "#333" },
+    { name: "X", url: "https://x.com/evglionservices", icon: "𝕏", color: "#000000" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/evangelion-services-2a8329387?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: "in", color: "#0077B5" },
+    { name: "Instagram", url: "https://www.instagram.com/evangelion.services/", icon: "📷", color: "#E4405F" },
+    
   ];
 
   const togglePopup = () => setIsOpen(!isOpen);
